@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 const Titlearr=[
     'I am a web developer',
-    'I am a developer'
+    'I am a programmer'
 ]
 
 function Title(){
