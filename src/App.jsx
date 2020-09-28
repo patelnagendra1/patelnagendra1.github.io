@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import Nagendra from "./assets/Nagendra.png"
 import Title from './Title';
 import Header from './Header';
-
+import './style.css'
 
 
 

@@ -5,7 +5,7 @@ import App from "./App"
 import { createBrowserHistory } from 'history'
 import SocialProfials from "./socialProfial"
 import Project from './Project';
-
+import MusicMaster from './project/music-master'
 
 
 
@@ -15,7 +15,7 @@ ReactDOM.render(
         <Route exact path='/' component={App} />
         <Route path='/profials' component ={SocialProfials} />
         <Route path='/projects' component = {Project} />
-        
+        <Route path='/MusicMaster' component ={MusicMaster} />
     </Router>
     , 
     document.getElementById("root"));

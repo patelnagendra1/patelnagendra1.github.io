@@ -1,0 +1,64 @@
+
+.profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.title-fade-out {
+  opacity: 0;
+  animation-name: fade-out;
+  animation-duration: 2s;
+}
+
+.title-fade-in {
+  opacity: 100;
+  animation-name: fade-in;
+  animation-duration: 2s;
+}
+
+@keyframes fade-out {
+  from {opacity: 100}
+  to {opacity: 0}
+}
+
+@keyframes fade-in {
+  from {opacity: 0}
+  to {opacity: 100}
+}
+
+
+.track{
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  position: relative;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.track-image{
+  width: 250px;
+  height: 250px;
+}
+
+.track-text{
+  position: absolute;
+  width: 240px;
+  bottom: -20px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+.track-icon{
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  color: white;
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  padding: 10px;
+  opacity: 0.8;
+}
