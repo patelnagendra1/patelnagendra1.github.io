@@ -1,5 +1,5 @@
 import React from 'react'
-import PDF from './assets/Nagendraresume.pdf'
+import PDF from './assets/Nagendra-Patel-resume.pdf'
 
 function Header(){
 
